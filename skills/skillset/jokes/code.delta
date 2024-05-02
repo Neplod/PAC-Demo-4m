@@ -1,0 +1,2 @@
+pyjokes = functions.import_lib("pyjokes")
+pa.say(pyjokes.get_joke(language='es'))

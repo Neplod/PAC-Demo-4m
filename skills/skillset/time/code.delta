@@ -1,0 +1,4 @@
+datetime = functions.import_lib('datetime')
+now = datetime.datetime.now()
+t_string = now.strftime("%H:%M")
+pa.say(f"Son las {t_string.replace(':', ' y ')}")
